@@ -1,0 +1,21 @@
+.logo {
+    font-family: Raleway, sans-serif;
+    @include font(26px, 30.52px);    
+    text-decoration: none;
+
+    margin-right: 93px;
+}
+
+.header__logo {
+    color: #000000;
+}
+
+.footer__logo {
+    color: #ffffff;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.logo__forepart {
+    color: var(--accent-text-color);
+}
